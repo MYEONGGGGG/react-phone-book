@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "react-hooks/exhaustive-deps": "off",
+    "no-unused-vars": "off"
+  },
+
+  "parserOptions": {
+    // ES6 모듈을 올바르게 인식하도록 설정
+    "sourceType": "module",
+
+    // sourceType을 module 옵션을 사용하여 ES6 모듈을 파싱하려고 할 때
+    // ecmaVersion 값이 2015보다 작을 경우, 오류가 발생하기때문에 방지하기 위한 설정
+    // (ESLint가 ES6 이상의 javascript 구문을 인식 및 처리하기 위함)
+    "ecmaVersion": 2015
+  }
+}
