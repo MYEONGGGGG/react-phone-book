@@ -1,3 +1,13 @@
 .title {
     text-align: center;
 }
+
+.contact-item {
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.contact-item .Button {
+    cursor: pointer;
+}

@@ -7,7 +7,7 @@ import ContactList from "./component/ContactList";
 function App() {
   return (
       <div>
-          <h1 className="title mb-5">Phone-book-app</h1>
+          <h1 className="title mt-2 mb-5 fw-bolder">연락처</h1>
           <Container>
               <Row>
                   <Col className="mt-3">
